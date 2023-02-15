@@ -72,6 +72,11 @@
         width: 20%;
         position: relative;
         margin: 25px 80px -105px 0;
+        transition:.5s;
+      }
+      aside:hover{
+        transform: scale(1.1);
+        transition: .5s;
       }
       
       figure {
@@ -124,21 +129,15 @@
       margin: 0 2%;
       box-shadow: 0 20px 30px rgba(0,0,0,.1);
       line-height: 0;
+      border-radius:10px ;
     }
+
 
     .box > img {
       width: 100%;
-      height: 90%;
+      height: 100%;
       object-fit:cover; 
       transition: .5s;
-    }
-
-    .box > span {
-      font-size: 3.8vh;
-      display: block;
-      text-align: center;
-      height: 1vh;
-      line-height: 2;
     }
 
     .box:hover { 
