@@ -27,6 +27,12 @@
         background-image: linear-gradient(to left, #715929, #d6c79a);
         opacity: .85;
       }
+      /* Header title stlying */
+      header h1{
+        font-size: xx-large;
+        padding: 5px 20px 20px 20px;
+        text-decoration: underline;
+      }
       
       /* Main Navigation Bar Styling */
       nav {
@@ -127,6 +133,10 @@
         text-align: center;
         margin: 20px;
       }
+      /* Styling of footer's child elements because they were reset in the reset style sheet */
+      footer p{
+        padding: 20px;
+      }
       /* Styling of the 'GO TO TOP' button */
       .button {
         background-color: rgb(180,151,91);
@@ -165,4 +175,4 @@
         flex: 1 1 40%; 
       }
     
-    
+  
